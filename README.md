@@ -1,6 +1,6 @@
-# 📊 Data Science Jobs – Exploratory Data Analysis (EDA)
+# 📊 𝐃𝐚𝐭𝐚 𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐉𝐨𝐛𝐬 – 𝐄𝐱𝐩𝐥𝐨𝐫𝐚𝐭𝐨𝐫𝐲 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 (𝐄𝐃𝐀)
 
-## 📌 Project Overview
+## 📌 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐎𝐯𝐞𝐫𝐯𝐢𝐞𝐰
 
 This project focuses on **end-to-end Exploratory Data Analysis (EDA)** of Data Science job postings to uncover hiring trends, job demand patterns, and market insights. The analysis is performed using Python and standard data analytics libraries, following a structured and reproducible data pipeline.
 
@@ -8,7 +8,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🧠 Objectives
+## 🧠 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞𝐬
 
 * Understand the structure and quality of the dataset
 * Analyze missing and unique values
@@ -18,13 +18,13 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🗂 Dataset Information
+## 🗂 𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧
 
 * **Dataset Name:** Data Science Jobs
 * **Records:** 42 job postings
 * **Features:** 7 columns
 
-### Columns:
+### 𝐂𝐨𝐥𝐮𝐦𝐧𝐬:
 
 * `title` – Job role/title
 * `company` – Hiring company name
@@ -36,7 +36,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## ⚙️ Analytical Platform
+## ⚙️ 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐚𝐥 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦
 
 * **Language:** Python
 * **Environment:** Jupyter Notebook
@@ -49,7 +49,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🔄 Data Pipeline
+## 🔄 𝐃𝐚𝐭𝐚 𝐏𝐢𝐩𝐞𝐥𝐢𝐧𝐞
 
 1. Data Ingestion
 2. Data Understanding
@@ -61,7 +61,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 📥 Data Ingestion
+## 📥 𝐃𝐚𝐭𝐚 𝐈𝐧𝐠𝐞𝐬𝐭𝐢𝐨𝐧
 
 * Loaded dataset into Pandas DataFrame
 * Verified dataset shape, column names, and data types
@@ -69,7 +69,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🧹 Missing Value Analysis
+## 🧹 𝐌𝐢𝐬𝐬𝐢𝐧𝐠 𝐕𝐚𝐥𝐮𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬
 
 * Identified missing values across all columns
 * Evaluated percentage and impact of missing data
@@ -77,7 +77,7 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🔍 Unique Value Analysis
+## 🔍 𝐔𝐧𝐢𝐪𝐮𝐞 𝐕𝐚𝐥𝐮𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬
 
 * Analyzed unique values per column
 * Identified high-cardinality features
@@ -86,11 +86,11 @@ The goal of this project is **analysis and insight generation only** — no mach
 
 ---
 
-## 🧱 Column Categorization
+## 🧱 𝐂𝐨𝐥𝐮𝐦𝐧 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐳𝐚𝐭𝐢𝐨𝐧
 
 Features were categorized as:
 
-### 🔹 Categorical Variables
+### 🔹 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐜𝐚𝐥 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
 
 * `title`
 * `company`
@@ -98,11 +98,11 @@ Features were categorized as:
 * `job_type`
 * `source`
 
-### 🔹 Datetime Variable
+### 🔹 𝐃𝐚𝐭𝐞𝐭𝐢𝐦𝐞 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞
 
 * `posted_date`
 
-### 🔹 Derived / Engineered Variables
+### 🔹 𝐃𝐞𝐫𝐢𝐯𝐞𝐝 / 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐞𝐝 𝐕𝐚𝐫𝐢𝐚𝐛𝐥𝐞𝐬
 
 * `posted_year`
 * `posted_month`
@@ -110,7 +110,7 @@ Features were categorized as:
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+## 📊 𝐄𝐱𝐩𝐥𝐨𝐫𝐚𝐭𝐨𝐫𝐲 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬 (𝐄𝐃𝐀)
 
 The following analyses were performed:
 
@@ -121,7 +121,7 @@ The following analyses were performed:
 * Time-based analysis of job postings
 * Salary distribution and comparison (where applicable)
 
-### Visualizations Used:
+### 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧𝐬 𝐔𝐬𝐞𝐝:
 
 * Bar charts
 * Count plots
@@ -130,7 +130,7 @@ The following analyses were performed:
 
 ---
 
-## 🛠 Feature Engineering
+## 🛠 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫𝐢𝐧𝐠
 
 To improve analytical insights, new features were created:
 
@@ -145,7 +145,7 @@ These features enable:
 
 ---
 
-## 📈 Key Insights (High-Level)
+## 📈 𝐊𝐞𝐲 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬 (𝐇𝐢𝐠𝐡-𝐋𝐞𝐯𝐞𝐥)
 
 * Certain job roles dominate the hiring market
 * Hiring activity varies significantly by location
@@ -156,7 +156,7 @@ These features enable:
 
 ---
 
-## 📌 Project Scope
+## 📌 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 𝐒𝐜𝐨𝐩𝐞
 
 ✅ Data Cleaning (EDA-level)
 ✅ Exploratory Analysis
@@ -164,13 +164,13 @@ These features enable:
 
 ---
 
-## 🧾 Conclusion
+## 🧾 𝐂𝐨𝐧𝐜𝐥𝐮𝐬𝐢𝐨𝐧
 
 This project demonstrates a **structured EDA workflow** applied to real-world job market data. It highlights the ability to clean, explore, visualize, and extract meaningful insights from raw datasets using Python.
 
 ---
 
-## 📎 How to Use
+## 📎 𝐇𝐨𝐰 𝐭𝐨 𝐔𝐬𝐞
 
 1. Clone the repository
 2. Open the Jupyter Notebook
@@ -178,7 +178,7 @@ This project demonstrates a **structured EDA workflow** applied to real-world jo
 
 ---
 
-## 🙌 Acknowledgment
+## 🙌 𝐀𝐜𝐤𝐧𝐨𝐰𝐥𝐞𝐝𝐠𝐦𝐞𝐧𝐭
 
 Dataset used for educational and analytical purposes.
 
